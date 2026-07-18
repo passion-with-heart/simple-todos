@@ -1,0 +1,117 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --body-bg: #1b1b1d;
+    --sea-bg: #fff;
+    --text: #fff;
+    --btn-bg: #3ded54;
+  }
+
+  .light {
+    --body-bg: #fff;
+    --sea-bg: #ccc;
+    --text: #000;
+    --btn-bg: #f5ee62;
+  }
+
+  html {
+    color: #fff;
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Urbanist", sans-serif;
+    background-color: var(--body-bg);
+  }
+
+  .todo-head {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    /* margin-right: 180px; */
+    color: var(--text);
+  }
+
+  .themeBtn {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  p,
+  li,
+  button {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    font-family: "Urbanist", sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+  }
+
+  button {
+    background-color: var(--btn-bg);
+    padding: 0.6rem 2.4rem;
+    border-radius: 10rem;
+    margin-right: 3.6rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+    &:hover {
+      box-shadow: inset 0 0 0 0.2rem #f5ee62;
+      background-color: transparent;
+      color: #f5ee62;
+    }
+  }
+
+  .para:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+  /*+ add css by yourself*/
+  /*======= Style for divElement =======*/
+  .main_todo_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 14px;
+    /* padding-right: 60px; */
+  }
+
+  .main_todo_div li {
+    font-weight: 700;
+  }
+
+  /*======= style for input box and button =======*/
+
+  button.btn {
+    padding: 20px 30px;
+  }
+
+  input#inputValue {
+    padding: 10px 80px;
+    border-radius: 13px;
+    margin-right: 10px;
+    background: var(--sea-bg);
+    font-size: 18px;
+
+  }
+
+  /*======= style for todoList button =======*/
+  Button.deleteBtn {
+    width: 135px;
+    padding: 15px 0px;
+    margin-left: 0px;
+    color: var(--text);
+  }

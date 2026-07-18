@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ListMaker</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="todo-head">
+      <h1>Todo List</h1>
+      <div id="themeToggle" class="themeBtn">☀️</div>
+    </div>
+    <section>
+      <form>
+        <div>
+          <input type="text" id="inputValue" placeholder="Enter you text..." />
+          <button class="btn">Add Todo</button>
+        </div>
+        <section class="todo-lists-elem"></section>
+      </form>
+    </section>
+    <!-- JavaScript code here... -->
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
