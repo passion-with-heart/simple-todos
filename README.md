@@ -22,7 +22,7 @@ A clean and responsive **Todo List** application built with **HTML**, **CSS**, a
 
 👉 **Open the application**
 
-🔗 https://your-username.github.io/simple-todos/
+🔗 https://passion-with-heart.github.io/simple-todos/
 
 > **Tip:** Press **Ctrl + Click** (or **Cmd + Click** on macOS) to open it in a new tab.
 
